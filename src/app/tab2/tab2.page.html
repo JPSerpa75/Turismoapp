@@ -1,0 +1,172 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="new">
+    <ion-title color="light">
+      Praias
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiadospadres.jpg" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>Praia dos Padres</h2>
+          </ion-text>
+          <p>Guarapari</p>
+        </ion-label>
+        <ion-note slot="end">Sul do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g941641-d2408025-Reviews-Praia_dos_Padres-Guarapari_State_of_Espirito_Santo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiadeitauna.webp" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>Praia de Itaúnas</h2>
+          </ion-text>
+          <p>Conceição da Barra</p>
+        </ion-label>
+        <ion-note slot="end">Norte do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g2572206-d4057440-Reviews-Itaunas_Beach-Itaunas_Conceicao_da_Barra_State_of_Espirito_Santo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiadomorro.webp" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>Praia do Morro</h2>
+          </ion-text>
+          <p>Guarapari</p>
+        </ion-label>
+        <ion-note slot="end">Sul do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g941641-d2408019-Reviews-Morro_Beach-Guarapari_State_of_Espirito_Santo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiadacosta.webp" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>Praia da Costa</h2>
+          </ion-text>
+          <p>Vila Velha</p>
+        </ion-label>
+        <ion-note slot="end">Sul do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g303319-d2408104-Reviews-Costa_Beach-Vila_Velha_State_of_Espirito_Santo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiadabarradosahy.webp" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>P. da Barra do Sahy</h2>
+          </ion-text>
+          <p>Aracruz</p>
+        </ion-label>
+        <ion-note slot="end">Norte do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g660504-d2321969-Reviews-Praia_Barra_do_Sahy-Sao_Sebastiao_State_of_Sao_Paulo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiariachodoce.webp" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>Praia Riacho Doce</h2>
+          </ion-text>
+          <p>Conceição da Barra</p>
+        </ion-label>
+        <ion-note slot="end">Norte do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g2572206-d4057442-Reviews-Riacho_Doce_Beach-Itaunas_Conceicao_da_Barra_State_of_Espirito_Santo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <ion-img src="assets/images/praiadasfalesias.webp" alt="Foto praia dos padres" class="fotos"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="dark">
+            <h2>Praia das Falésias</h2>
+          </ion-text>
+          <p>Marataízes</p>
+        </ion-label>
+        <ion-note slot="end">Sul do estado</ion-note>
+      </ion-item>
+      <ion-item-options side="start">
+        <ion-item-option (click)="like()">
+          <ion-icon class="like" slot="icon-only" name="star-outline"></ion-icon>
+        </ion-item-option>
+        <ion-item-option (click)="openSite('https://www.tripadvisor.com/Attraction_Review-g968370-d6716233-Reviews-Praia_das_Falesias-Marataizes_State_of_Espirito_Santo.html')" color="danger">
+          <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
